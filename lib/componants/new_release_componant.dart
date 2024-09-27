@@ -1,12 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:movies_gp/network/remote/api_constance.dart';
+import 'package:movies_gp/network/api_constance.dart';
 import 'package:provider/provider.dart';
 
 import '../Veiw_movie_ditails_screen.dart';
 import '../models/movie_response.dart';
-import '../network/remote/api_manager.dart';
+import '../network/api_manager.dart';
 import '../provider/my-provider.dart';
 import 'bookMark_componant.dart';
 

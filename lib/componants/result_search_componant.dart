@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 
 import '../Veiw_movie_ditails_screen.dart';
 import '../models/movie_response.dart';
-import '../network/remote/api_constance.dart';
+import '../network/api_constance.dart';
 import '../provider/my-provider.dart';
 import 'bookMark_componant.dart';
 
