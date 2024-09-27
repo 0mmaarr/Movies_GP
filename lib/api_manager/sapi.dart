@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:movies_gp/network/remote/api_constance.dart';
-
-import '../../models/series.dart';
+import '../models/series.dart';
 import 'package:http/http.dart' as http;
+
+import 'api_constance.dart';
 
 
 class SApi {

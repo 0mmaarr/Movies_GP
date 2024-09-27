@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:movies_gp/network/remote/api_constance.dart';
-import '../../models/movie_response.dart';
-import '../../models/catigory_model.dart';
+import 'package:movies_gp/network/api_constance.dart';
+import '../models/movie_response.dart';
+import '../models/catigory_model.dart';
+import 'api_constance.dart';
 
 class ApiManager {
   static Future<MovieDitails> getSearchMovies({String? searchKeyword}) async {
