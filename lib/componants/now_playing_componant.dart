@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:movies_gp/componants/new_release_componant.dart';
-import 'package:movies_gp/network/api_constance.dart';
+import 'new_release_componant.dart';
 import 'package:provider/provider.dart';
 import '../Veiw_movie_ditails_screen.dart';
+import '../api_manager/api_constance.dart';
 import '../models/movie_response.dart';
 import '../provider/my-provider.dart';
 import 'bookMark_componant.dart';

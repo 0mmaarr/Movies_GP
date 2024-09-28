@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../models/movie_response.dart';
-import '../models/catigory_model.dart';
-import 'api_constance.dart';
+import '../../api_manager/api_constance.dart';
+import '../../models/movie_response.dart';
+import '../../models/catigory_model.dart';
 
 class ApiManager {
   static Future<MovieDitails> getSearchMovies({String? searchKeyword}) async {
     Uri url = Uri.parse(
-        'https://api.themoviedb.org/3/search/movie?query=$searchKeyword&api_key=817e9465f248573d81f2cc46f5e954d3');
+        'https://api.themoviedb.org/3/search/movie?query=$searchKeyword&api_key=229c83183b45c4a3cae8c6ca8b7cefbb');
     // https('api.themoviedb.org', "/3/search/movie", {
     //   "apiKey": ApiConstance.api_key,
     //   "query": searchKeyword,

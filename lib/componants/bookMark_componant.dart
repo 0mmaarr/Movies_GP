@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import '../models/movie_response.dart';
-import 'package:movies_gp/provider/my-provider.dart';
+import '../provider/my-provider.dart';
 
 class BookMarkWidget extends StatefulWidget {
   final MovieDitails movie;
